@@ -1,0 +1,17 @@
+/* src/css/Cart.css */
+.cart-table h2 {
+  color: #007bff;
+}
+
+.cart-table .table th,
+.cart-table .table td {
+  vertical-align: middle;
+}
+
+.cart-table .form-control {
+  width: 60px;
+}
+
+.cart-table .btn-sm {
+  font-size: 0.9rem;
+}

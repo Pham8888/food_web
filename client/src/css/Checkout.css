@@ -1,0 +1,17 @@
+/* src/css/Checkout.css */
+.checkout h2 {
+  color: #007bff;
+}
+
+.checkout .card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.checkout .list-group-item {
+  font-size: 1rem;
+}
+
+.checkout .form-label {
+  font-weight: 500;
+}

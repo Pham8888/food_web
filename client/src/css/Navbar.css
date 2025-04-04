@@ -1,0 +1,96 @@
+/* src/css/Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f28c38;
+}
+
+.navbar-brand span {
+  color: #f28c38;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f28c38;
+}
+
+/* Làm nổi bật mục được chọn (active) */
+.nav-link.active {
+  font-weight: bold;
+  background-color: #fff; /* Nền cam nhạt ban đầu */
+  color: #FF0000; /* Màu chữ đỏ */
+  border: 2px solid #ffaa33; /* Viền cam sáng */
+  box-shadow: 0 0 8px #ffaa33; /* Bóng cam sáng ban đầu */
+  border-radius: 10px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Khi hover lên nút active */
+.nav-link.active:hover {
+  background-color: #f28c38; /* Nền cam khi hover */
+  color: #FF0000; /* Giữ màu đỏ cho chữ */
+  border: 2px #ffaa33; /* Giữ viền cam sáng */
+  box-shadow: 0 0 12px #FFFFFF; /* Bóng trắng sáng khi hover */
+}
+
+/* Tùy chỉnh biểu tượng (tìm kiếm, đăng nhập) */
+.nav-item .nav-link i {
+  font-size: 1.2rem;
+  color: #f28c38;
+}
+
+/* Tùy chỉnh dropdown */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #ff0000;
+}
+
+.dropdown-item:hover {
+  background-color: #fff;
+  color: #f28c38;
+}
+
+/* Responsive: Ẩn biểu tượng toggler trên desktop */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+/* Responsive: Điều chỉnh trên mobile */
+@media (max-width: 991px) {
+  .navbar-nav {
+    justify-content: flex-start;
+  }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 12px #FFFFFF; }
+  50% { box-shadow: 0 0 20px #FFFFFF; }
+  100% { box-shadow: 0 0 12px #FFFFFF; }
+}

@@ -1,0 +1,52 @@
+.menu-page {
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.menu-card-img img:hover {
+  transform: scale(1.05);
+}
+
+.category-badge {
+  transition: background 0.3s ease;
+}
+
+.category-badge:hover {
+  background: #fdcb6e;
+}
+
+.btn-primary {
+  background: #e17055;
+}
+
+.btn-primary:hover {
+  background: #fdcb6e;
+  color: #2d3436;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .menu-card-img img {
+    height: 180px;
+  }
+
+  .card-title {
+    font-size: 1.2rem !important;
+  }
+
+  .card-text {
+    font-size: 0.9rem !important;
+  }
+}

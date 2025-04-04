@@ -1,0 +1,47 @@
+footer {
+  background-color: #0c0c0c;
+  color: #fff;
+}
+
+footer h5 {
+  color: #fff;
+  font-weight: bold;
+}
+
+footer .text-muted {
+  color: #ccc !important;
+  font-size: 0.9rem;
+}
+
+footer .social-icons a {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #ff4444;
+}
+
+footer .border-top {
+  border-color: #333 !important;
+}
+.social-icons a {
+  font-size: 1.5rem; /* Kích thước icon */
+  transition: color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+}
+footer .list-unstyled li {
+  line-height: 1.8;
+}
+
+footer .text-muted a {
+  color: #ccc !important;
+  transition: color 0.3s;
+}
+
+footer .text-muted a:hover {
+  color: #ff4444 !important; /* Màu khi hover */
+}
+
+.social-icons a:hover {
+  color: #ff4444; /* Màu khi hover, ví dụ đỏ nhạt */
+}

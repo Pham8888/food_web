@@ -1,0 +1,17 @@
+/* src/css/Register.css */
+.register-card {
+  max-width: 500px;
+  margin: auto;
+}
+
+.register-card h2 {
+  color: #007bff;
+}
+
+.register-card .form-label {
+  font-weight: 500;
+}
+
+.register-card .form-control {
+  font-size: 1rem;
+}

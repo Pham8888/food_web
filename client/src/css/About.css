@@ -1,0 +1,110 @@
+.about-page {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+  border-bottom: 1px solid #eee;
+}
+
+.icon-box {
+  transition: transform 0.3s ease;
+}
+
+.icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #e17055 !important;
+}
+
+.timeline-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline {
+  padding: 40px 0;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-item.left .timeline-content {
+  flex-direction: row;
+}
+
+.timeline-item.right .timeline-content {
+  flex-direction: row-reverse;
+}
+
+.timeline-box {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.timeline-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.timeline-icon {
+  transition: all 0.3s ease;
+}
+
+.timeline-icon:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 20px;
+    transform: none;
+  }
+
+  .timeline-item.left .timeline-content,
+  .timeline-item.right .timeline-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-box {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 40px;
+  }
+
+  .timeline-year {
+    top: -40px !important;
+    left: 0 !important;
+    right: auto !important;
+  }
+
+  .timeline-icon {
+    left: 0 !important;
+    right: auto !important;
+    top: -20px !important;
+    transform: none !important;
+  }
+}

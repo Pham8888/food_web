@@ -1,0 +1,12 @@
+/* src/css/Profile.css */
+.profile-card h2 {
+  color: #007bff;
+}
+
+.profile-card .form-label {
+  font-weight: 500;
+}
+
+.profile-card .form-control {
+  font-size: 1rem;
+}

@@ -1,0 +1,197 @@
+/* src/css/Home.css */
+
+.carousel-inner {
+  border-radius: 10px; /* Bo góc cho banner */
+  overflow: hidden; /* Đảm bảo ảnh không tràn ra ngoài */
+}
+
+.carousel-caption {
+  color: black !important; /* Đảm bảo màu đen được áp dụng */
+  background: rgba(255, 255, 255, 0.9); /* Nền trắng mờ để chữ dễ đọc */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Banner */
+.jumbotron-custom {
+  background-color: #007bff; /* Màu xanh của bg-primary */
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+}
+
+.custom-order-btn {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+.custom-order-btn:hover {
+  background-color: #e9ecef;
+}
+
+/* Flash Deal */
+.flash-deal h2 {
+  color: #dc3545; /* Màu đỏ của text-danger */
+}
+
+.flash-deal .badge {
+  font-size: 1.25rem;
+}
+
+.flash-deal-card {
+  border-radius: 15px;
+  padding: 10px; /* Tạo không gian như thẻ */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.flash-deal-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bóng khi hover */
+  transform: scale(1.05); /* Phóng to nhẹ */
+}
+
+/* Explore Menu */
+
+.explore-menu-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.menu-card {
+  border-radius: 15px;
+  padding: 10px; /* Tạo không gian như thẻ */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.menu-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bóng khi hover */
+  transform: scale(1.05); /* Phóng to nhẹ */
+}
+
+.mb-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Đảm bảo container cha căn giữa */
+.mb-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-card {
+  border-radius: solid 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.menu-btn {
+  background-color: #FFA500;
+  color: black;
+  border: none;
+  font-weight: bold; /* Chữ in đậm */
+}
+
+.menu-btn:hover {
+  background-color: #e59400; /* Màu cam đậm hơn khi hover, tùy chọn */
+  color: black;
+}
+
+/* Testimonials */
+.explore-menu-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  letterSpacing: 2px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.explore-menu-title:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px); /* Nổi lên khi hover */
+}
+
+.testimonial-card {
+  border-radius: 15px;
+  padding: 10px; /* Tạo không gian như thẻ */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bóng khi hover */
+  transform: translateY(-10px); /* Nổi lên khi hover */
+}
+
+/* Features */
+.feature-card {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bóng nhẹ ban đầu */
+}
+
+.feature-card:hover {
+  transform: translateY(-10px); /* Nâng lên khi hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Bóng đậm hơn */
+  background: rgba(1, 1, 0, .1); /* Gradient cam */
+}
+
+.feature-icon {
+  color: #FFA500; /* Màu cam cho icon */
+  transition: transform 0.3s ease;
+}
+
+.feature-icon:hover {
+  transform: scale(1.2); /* Phóng to icon khi hover */
+}
+
+.feature-card .card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+.feature-card .card-text {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Floating Button */
+.btn-floating {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
